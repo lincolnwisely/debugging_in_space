@@ -5,10 +5,6 @@ body {
   padding: 0;
 }
 
-h1 {
-  /* font-family: ; */
-}
-
 header {
   background-image: url("https://images.unsplash.com/photo-1508612227635-e7cbb9bdf54d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=77a3b002e25d8ae4e281a8515017aaf4&auto=format&fit=crop&w=2520&q=80");
   background-size: cover;
@@ -22,6 +18,36 @@ h1 {
   color: #fff;
 }
 
+h4 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 24px;
+}
+
+p {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 16px;
+}
+
 nav {
   display: flex;
+}
+
+.astronaut-card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.astronaut-card {
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 23%;
+  margin: 1em;
+  padding: 1em;
+  background-color: #f4f2f2;
+  color: #1c1c1c;
+}
+
+.astronaut-img {
+  width: 100%;
+  overflow: hidden;
 }
