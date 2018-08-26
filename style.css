@@ -44,5 +44,21 @@ header {
 }
 
 nav {
+  /* display: flex; */
+}
+
+ul {
   display: flex;
+}
+
+li {
+  padding: 10px;
+  color: white;
+  background-color: red;
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+li a {
+  color: white;
 }
