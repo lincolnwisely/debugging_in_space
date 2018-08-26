@@ -33,6 +33,8 @@ h3 {
 
 a {
   color: #e60000;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 16px;
 }
 
 header {
@@ -49,7 +51,7 @@ h1 {
 }
 
 h4 {
-  font-family: "Barlow Semi Condensed", sans-serif;
+  font-family: "VT323", monospace;
   font-size: 24px;
 }
 
@@ -80,13 +82,13 @@ li a {
 
 .astronaut-card-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .astronaut-card {
   flex-direction: row;
   flex-wrap: wrap;
-  width: 23%;
+  width: 30%;
   margin: 1em;
   padding: 1em;
   background-color: #f4f2f2;
@@ -95,5 +97,18 @@ li a {
 
 .astronaut-img {
   width: 100%;
-  overflow: hidden;
+}
+
+#facts-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fact {
+  flex-direction: column;
+  padding: 1em;
+  margin: 1em;
+  background-color: #f4f2f2;
+  color: #1c1c1c;
 }
