@@ -5,10 +5,40 @@ body {
   padding: 0;
 }
 
+section {
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1,
+h3 {
+  font-family: "VT323", monospace;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 80px;
+  margin: 0px;
+  padding-top: 50px;
+}
+
+h3 {
+  text-align: center;
+  color: #090909;
+  font-size: 32px;
+  margin: 0px;
+  padding-top: 50px;
+}
+
+a {
+  color: #e60000;
+}
+
 header {
   background-image: url("https://images.unsplash.com/photo-1508612227635-e7cbb9bdf54d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=77a3b002e25d8ae4e281a8515017aaf4&auto=format&fit=crop&w=2520&q=80");
   background-size: cover;
-  height: 600px;
+  height: 400px;
   width: 100%;
   display: block;
 }
