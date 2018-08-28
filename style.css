@@ -37,10 +37,17 @@ a {
   font-size: 16px;
 }
 
+.title-and-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1em;
+}
+
 header {
   background-image: url("https://images.unsplash.com/photo-1508612227635-e7cbb9bdf54d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=77a3b002e25d8ae4e281a8515017aaf4&auto=format&fit=crop&w=2520&q=80");
   background-size: cover;
-  height: 400px;
+  height: 300px;
   width: 100%;
   display: block;
 }
@@ -61,7 +68,8 @@ p {
 }
 
 nav {
-  /* display: flex; */
+  display: flex;
+  justify-content: center;
 }
 
 ul {
