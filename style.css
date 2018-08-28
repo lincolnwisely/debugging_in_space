@@ -98,13 +98,23 @@ li a {
   flex-wrap: wrap;
   width: 30%;
   margin: 1em 0;
-  padding: 1em;
   background-color: #f4f2f2;
   color: #1c1c1c;
 }
 
+.astronaut-card-information {
+  padding: 1.5em;
+}
+
+.astronaut-card-information > h4 {
+  margin: 0;
+}
+
 .astronaut-img {
   width: 100%;
+  max-height: auto;
+  overflow: hidden;
+  object-fit: cover;
 }
 
 #facts-section {
@@ -115,7 +125,7 @@ li a {
 
 .fact {
   flex-direction: column;
-  padding: 1em;
+  padding: 1.5em;
   margin: 1em 0;
   background-color: #f4f2f2;
   color: #1c1c1c;
